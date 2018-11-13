@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>:only-child</title>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/:only-child -->
+    <style>
+        div:only-child {
+            color: red;
+        }
+
+        div {
+            display: inline-block;
+            margin: 6px;
+            outline: 1px solid;
+        }
+    </style>
+</head>
+
+<body>
+        <div>
+                <div>I am an only child.</div>
+              </div>
+              
+              <div>
+                <div>I am the 1st sibling.</div>
+                <div>I am the 2nd sibling.</div>
+                <div>I am the 3rd sibling, <div>but this is an only child.</div></div>
+              </div>
+
+</body>
+
+</html>
