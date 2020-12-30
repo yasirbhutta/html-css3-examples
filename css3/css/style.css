@@ -1,0 +1,32 @@
+p#ab{ font-size:small; }
+p#px{ font-size: 24px; }
+p#em{ font-size: 1.2em; }
+p#per{ font-size: 180%; }
+
+p#se{ font-family: "Time New Roman", Garamond, serif; }
+p#sa{ font-family: Helvetica, "MS Verdana", sans-serif; }
+
+p#no{ font-style: normal; }
+p#i{ font-style: italic; }
+p#ob{ font-style: oblique; }
+
+p#one{ font-weight: bold; }
+p#two{ font-weight: lighter; }
+p#three{ font-weight: bolder; }
+p#four{ font-weight: 400; }
+p#five{ font-weight: 500; }
+p#six{ font-weight: 600; }
+p#seven{ font-weight: 700; }
+p#eight{ font-weight: 800; }
+p#nine{ font-weight: 900; }
+
+ul{
+    list-style-type: square;
+  }
+  ol{
+    list-style-type:lower-roman;
+  }
+
+  ul.img{
+    list-style-image: url(../images/star.jpg);
+  }
