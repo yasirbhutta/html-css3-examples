@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content -->
+
+    <video src="videos/SampleVideo_1280x720_2mb.mp4" controls>
+        <p>Your browser doesn't support HTML5 video. Here is a <a href="videos/SampleVideo_1280x720_2mb.mp4">link to the
+                video</a> instead.</p>
+    </video>
+
+
+
+    <video controls>
+        <source src="videos/SampleVideo_1280x720_2mb.mp4" type="video/mp4">
+        <source src="videos/SampleVideo_1280x720_2mb.mp4" type="video/webm">
+        <p>Your browser doesn't support HTML5 video. Here is a <a href="videos/SampleVideo_1280x720_2mb.mp4">link to the
+                video</a> instead.</p>
+    </video>
+
+    <!-- other <video> features -->
+
+    <video controls width="400" height="400" autoplay loop muted preload="auto" poster="images/hands-waving-flags-pakistan.jpg">
+        <source src="videos/SampleVideo_1280x720_2mb.mp4" type="video/mp4">
+        <source src="videos/SampleVideo_1280x720_2mb.mp4" type="video/webm">
+        <p>Your browser doesn't support HTML video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
+    </video>
+
+</body>
+
+</html>
